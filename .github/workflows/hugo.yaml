@@ -28,6 +28,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install Hugo
+        working-directory: ./hugo-portfolio
         env:
           HUGO_VERSION: 0.150.0
         run: |
@@ -53,7 +54,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          path: ./public
+          path: ./hugo-portfolio/public
 
   deploy:
     environment:
