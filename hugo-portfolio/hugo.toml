@@ -3,24 +3,3 @@ defaultContentLanguage = 'en'
 title = 'Ella Tattari'
 theme = 'hugo-theme-stack'
 
-[languages]
-  [languages.en]
-    direction = 'ltr'
-    label = 'English'
-    locale = 'en-US'
-    title = 'Contact'
-    weight = 1
-    [languages.en.params]
-      [languages.en.params.contact]
-        email = 'info@de.example.org'
-        phone = '04xxxx6xxx'
-  [languages.fin]
-    direction = 'ltr'
-    label = 'Suomeksi'
-    locale = 'fin-FIN'
-    title = 'Yhteystiedot'
-    weight = 2
-    [languages.en.params]
-      [languages.fin.params.contact]
-        email = 'info@example.org'
-        phone = '09xxxx0xxx'
