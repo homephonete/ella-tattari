@@ -1,0 +1,4 @@
+baseURL = 'https://homephonete.github.io/ella-tattari/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+theme = 'hugo-theme-stack'
