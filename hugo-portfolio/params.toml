@@ -1,0 +1,13 @@
+mainSections   = ["post"]
+rssFullContent = true
+favicon        = "img/avatar.png"
+
+[sidebar]
+    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    avatar   = "img/avatar.png"
+
+[widgets]
+    homepage = [
+        { type = "search" },
+    ]
+    page     = [{ type = "toc" }]
