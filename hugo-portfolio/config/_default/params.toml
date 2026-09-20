@@ -1,12 +1,8 @@
-mainSections   = ["post"]
-rssFullContent = true
-favicon        = "img/IMG_0707.jpg"
+mainSections = ["post"]
 
 [sidebar]
-    avatar   = "img/IMG_0707.jpg"
+subtitle = "Whatever you want here"
+avatar = "img/avatar.png"
 
-[widgets]
-    homepage = [
-        { type = "search" },
-    ]
-    page     = [{ type = "toc" }]
+[[widgets.homepage]]
+type = "search"
