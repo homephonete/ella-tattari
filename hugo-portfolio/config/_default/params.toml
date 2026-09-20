@@ -4,5 +4,7 @@ mainSections = ["post"]
 subtitle = "Whatever you want here"
 avatar = "img/IMG_0707.JPG"
 
-[[widgets.homepage]]
-type = "search"
+[widgets]
+homepage = [
+    { type = "search" }
+]
