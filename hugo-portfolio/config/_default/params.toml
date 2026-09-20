@@ -2,7 +2,7 @@ mainSections = ["post"]
 
 [sidebar]
 subtitle = "Whatever you want here"
-avatar = "img/avatar.png"
+avatar = "img/IMG_0707.JPG"
 
 [[widgets.homepage]]
 type = "search"
